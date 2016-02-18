@@ -1,0 +1,102 @@
+/*universal styles*/
+
+/*css reset*/
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*clearfix Paul Irish*/
+
+.clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+/*global styles*/
+
+.centerme {
+	text-align: center;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.hide {
+	display: none;
+}
+
+/*canary test*/
+
+/*.home {background-color: yellow;}*/
+
+
+/*page styles*/
+
+.horizline {
+    border-top:  solid rgba(255, 255, 255, .8);
+    width: 75%;
+    margin: 50px auto;
+}
+
+.background1{
+    background: url(img/background1.jpg) no-repeat center center fixed;
+    background-size: cover:
+    
+}
+
+.background2{
+    background: url(img/background2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+    
+}
+
+.background3{
+    background: url(img/background3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+.home { 
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+.box {
+    margin: 0 auto;
+    max-width: 75%;
+    padding: 10px;
+}
+
+.opaque {
+    background-color: rgba(1, 1, 1, .2);
+}
+
+header {
+    padding-top: 50px;
+    font-family: 'Amatic SC', cursive;
+    color: rgba(1,1,1, .8);
+    font-size: 2em;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.larger {
+    font-size: 1.4em;
+}
